@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Himalogin | IPB</title>
+
+    <!-- JENIS FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
+
+    <!-- FEATHER ICONS -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR START -->
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <a href="#"
+          ><img src="img/logo-him.png" alt="Logo" />
+          HIMALOGIN IPB
+        </a>
+      </div>
+
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#event">Events</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <!-- <a href="#" id="search"><i data-feather="search"></i></a> -->
+        <a href="#" id="menu"><i data-feather="menu"></i></a>
+      </div>
+
+      <div class="search-box">
+        <div class="search-icon">
+          <i data-feather="search"></i>
+        </div>
+        <div class="search-input">
+          <input type="text" class="input" placeholder="Search..." />
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- MY SLIDER START -->
+    <div class="slider" id="home">
+      <div class="myslider fade" style="display: block">
+        <img src="img/1.jpg" alt="" />
+      </div>
+
+      <div class="myslider fade">
+        <img src="img/2.JPG" alt="" />
+      </div>
+
+      <div class="myslider fade">
+        <img src="img/3.jpg" alt="" />
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dotbox">
+        <span class="dot" onclick="currentSlide:(1)"></span>
+        <span class="dot" onclick="currentSlide:(2)"></span>
+        <span class="dot" onclick="currentSlide:(3)"></span>
+      </div>
+    </div>
+    <!-- MY SLIDER END -->
+
+    <!-- HERO SECTION START -->
+    <section class="hero" id="home">
+      <main class="content">
+        <div class="content1">
+          <h1>VISI</h1>
+          <p>Mengoptimalkan fungsi Himalogin sebagai fasilitator dalam pengembangan mahasiswa dengan profesionalitas berasas kekeluargaan.</p>
+        </div>
+        <div class="content2">
+          <h2>MISI</h2>
+          <ul>
+            <li><p>Membangun internal Himalogin yang nyaman dan dekat guna membangkitkan rasa kekeluargaan serta mengoptimalkan kinerja Himalogin.</p></li>
+            <li><p>Menjadi fasilitator dalam peningkatan kualitas anggota Himalogin baik softskill maupun hard skill.</p></li>
+            <li><p>Meningkatkan hubungan yang harmonis dengan stakeholder dan meningkatkan kolaborasi.</p></li>
+          </ul>
+        </div>
+      </main>
+    </section>
+    <div class="line"></div>
+    <!-- HERO SECTION END -->
+
+    <!-- ABOUT SECTION START -->
+    <section class="about" id="about">
+      <h2>HIMALOGIN IPB 2023</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/logo-him.png" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Tentang Kami</h3>
+          <p>
+            Himpunan Mahasiswa Teknologi Industri Pertanian (Himalogin) merupakan himpunan profesi mahasiswa TIN yang pada tahun ini kabinetnya bernama “Tinta Emas”. Himalogin yang didirikan pada tanggal 26 September 1983 ini berdiri dengan
+            dasar AD dan ART Himalogin. Berdirinya Himalogin dilandaskan akan kesamaan tujuan dan pikiran mahasiswa TIN dalam menambah wawasan keilmuan dan mengembangkan softskill mahasiswa dalam berorganisasi serta mengetahui perkembangan
+            agroindustri sekarang ini. Tujuan tersebut menjadi dasar bahwa Himalogin FATETA IPB merupakan himpunan profesi dibidang Agroindustri yang mampu mengembangkan dan mensosialisasikan agroindustri kepada mahasiswa IPB. Tujuan lain
+            juga sebagai media penyaluran aspirasi dan pengembangan keilmuan dari mahasiswa TIN.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ABOUT SECTION END -->
+
+    <!-- EVENTS SECTION START -->
+    <section class="events" id="event">
+      <h1>New Events</h1>
+      <div class="row">
+        <div class="event-card">
+          <img class="img1" src="img/p1.png" alt="poster1" />
+          <h1 class="event-card-title">Festival of Agroindustri</h1>
+        </div>
+        <div class="event-card">
+          <img src="img/p2.jpg" alt="poster2" />
+          <h1 class="event-card-title">HI-CODE</h1>
+        </div>
+      </div>
+    </section>
+    <!-- EVENTS SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+    <section class="contact" id="contact">
+      <h2>Kontak Kami</h2>
+      <p>himaloginipb@gmail.com <br />Line: @himaloginipb <br />Twitter: @himalogin <br />Narahubung: Fazhan Alwi Pasaribu (082276648687)</p>
+      <form action="">
+        <div class="input">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input type="text" placeholder="Pesan" />
+          </div>
+        </div>
+        <button type="submit" class="btn">Kirim Pesan</button>
+      </form>
+    </section>
+    <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER START -->
+    <footer>
+      <div class="credit">Created with 💗 by Kelompok 6 HI-CODE</div>
+
+      <div class="social">
+        <a href="https://www.instagram.com/himaloginipb"><i data-feather="instagram"></i></a>
+        <a href="https://twitter.com/himalogin"><i data-feather="twitter"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100004930954413&mibextid=ZbWKwL"><i data-feather="facebook"></i></a>
+      </div>
+    </footer>
+    <!-- FOOOTER END -->
+
+    <!-- FEATHER ICONS -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- MY JAVASCRIPT -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
